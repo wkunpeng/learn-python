@@ -50,10 +50,10 @@ print'欢迎来到通风二班\n本套管理系统可实现以下方面\n 1.增加、删除学生\n 2.显示所
 \n 3.修改单个学生的信息\n 4.查找学生\n 5.显示制作人\n 6.统计分析\n 7.退出通风二班信息库'
 
 i=input('请输入需要服务(序号)：')
-if i= =1:
+if i==1:
 print'1.1增加学生\n1.2 删除学生'
 p=input('请输入服务(序号)：')
-if p= =1.1；
+if p==1.1；
 0=[str(raw-input('姓名：'))]
 m=[input('学号:')]
 c=[input('年龄:')]
@@ -75,29 +75,29 @@ for i in range(n):
 print'姓名:%s学号:%r年龄:%r性别:%s成绩:%f'%(name[i],id[i],age[i],sex[i],grade[i],)
 else:
 print'输入错误'
-elif i= =2:
+elif i==2:
 for i in range(n):
 print'姓名:%s学号:%d年龄:%d性别:%s成绩:%g'%(name[i],id[i],age[i],sex[i],grade[i],)
-elif i= =5:
+elif i==5:
 print'使用本系统请输入需要功能序号\n如想联系制作人请来A3-514'
-elif i= =6:
+elif i==6:
 print'6.1班级人数\n6.2最大最小年龄\n6.3 平均年龄\n6.4最高最低成绩\n6.5平均成绩\n6.6按成绩排序'
 a=input('请输入需要服务(序号)：')
-if a= =6.1:
+if a==6.1:
 print'学生人数:',n
-elif a= =6.2:
+elif a==6.2:
 print'最大年龄:',max(age),'最小年龄',min(age)
-elif a= =6.3:
+elif a==6.3:
 print'平均年龄:',sum(age)/len(age)
-elif a= =6.4:
+elif a==6.4:
 print'最高成绩:',max(grade),'最低成绩:',min(grade)
-elif a= =6.5:
+elif a==6.5:
 print'平均成绩:',sum(grade)/len(grade)
-elif a= =6.6:
+elif a==6.6:
 print'0-0'
 else:
 print'输入错误'
-elif i= =7；
+elif i==7；
 print '欢迎下次再来'
 else：
 print'输入错误'
